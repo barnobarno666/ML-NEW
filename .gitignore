@@ -10,16 +10,17 @@
 !DATASETS FOR FUN/
 !DCAI/
 !JAX BOOK/
-!KAGGLE FULL THROTTLE/
+
+# 
 !TIMESERIESBOOK/
-!KAGGLE FULL THROTTLE\DATATHONE/
-!KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/
-!KAGGLE FULL THROTTLE\KAGGLE ENEFIT/
-!KAGGLE FULL THROTTLE\KAGGLE HMS/
-!KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/
-!KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/
-!KAGGLE FULL THROTTLE\playground-series-s3e26/
-!KAGGLE FULL THROTTLE\playground-series-s4e6/
+# !KAGGLE FULL THROTTLE\DATATHONE/
+# !KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/
+# !KAGGLE FULL THROTTLE\KAGGLE ENEFIT/
+# !KAGGLE FULL THROTTLE\KAGGLE HMS/
+# !KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/
+# !KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/
+# !KAGGLE FULL THROTTLE\playground-series-s3e26/
+# !KAGGLE FULL THROTTLE\playground-series-s4e6/
 
 
 # Re-ignore everything inside specific_folder
@@ -27,15 +28,14 @@ CAR COUNTER/*
 DATASETS FOR FUN/*
 DCAI/*
 JAX BOOK/*
-KAGGLE FULL THROTTLE/*
 TIMESERIESBOOK/*
-KAGGLE FULL THROTTLE\DATATHONE/*
-KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*
-KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*
-KAGGLE FULL THROTTLE\KAGGLE HMS/*
-KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*
-KAGGLE FULL THROTTLE\playground-series-s3e26/*
-KAGGLE FULL THROTTLE\playground-series-s4e6/*
+# KAGGLE FULL THROTTLE\DATATHONE/*
+# KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*
+# KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*
+# KAGGLE FULL THROTTLE\KAGGLE HMS/*
+# KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*
+# KAGGLE FULL THROTTLE\playground-series-s3e26/*
+# KAGGLE FULL THROTTLE\playground-series-s4e6/*
 
 
 
@@ -48,21 +48,25 @@ KAGGLE FULL THROTTLE\playground-series-s4e6/*
 !DCAI/*.ipynb
 !JAX BOOK/*.py
 !JAX BOOK/*.ipynb
-!KAGGLE FULL THROTTLE/*.py
-!KAGGLE FULL THROTTLE/*.ipynb
+
 !TIMESERIESBOOK/*.py
 !TIMESERIESBOOK/*.ipynb
-!KAGGLE FULL THROTTLE\DATATHONE/*.py
-!KAGGLE FULL THROTTLE\DATATHONE/*.ipynb
-!KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*.py
-!KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*.ipynb
-!KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*.py
-!KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*.ipynb
-!KAGGLE FULL THROTTLE\KAGGLE HMS/*.py
-!KAGGLE FULL THROTTLE\KAGGLE HMS/*.ipynb
-!KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*.py
-!KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*.ipynb
-!KAGGLE FULL THROTTLE\playground-series-s3e26/*.py
-!KAGGLE FULL THROTTLE\playground-series-s3e26/*.ipynb
-!KAGGLE FULL THROTTLE\playground-series-s4e6/*.py
-!KAGGLE FULL THROTTLE\playground-series-s4e6/*.ipynb
+
+
+*
+!KAGGLE FULL THROTTLE/**/*.py
+!KAGGLE FULL THROTTLE/**/*.ipynb
+# !KAGGLE FULL THROTTLE\DATATHONE/*.py
+# !KAGGLE FULL THROTTLE\DATATHONE/*.ipynb
+# !KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*.py
+# !KAGGLE FULL THROTTLE\isic-2024-challenge skin cancer competition/*.ipynb
+# !KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*.py
+# !KAGGLE FULL THROTTLE\KAGGLE ENEFIT/*.ipynb
+# !KAGGLE FULL THROTTLE\KAGGLE HMS/*.py
+# !KAGGLE FULL THROTTLE\KAGGLE HMS/*.ipynb
+# !KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*.py
+# !KAGGLE FULL THROTTLE\kaggle multiclass obesity risk classification/*.ipynb
+# !KAGGLE FULL THROTTLE\playground-series-s3e26/*.py
+# !KAGGLE FULL THROTTLE\playground-series-s3e26/*.ipynb
+# !KAGGLE FULL THROTTLE\playground-series-s4e6/*.py
+# !KAGGLE FULL THROTTLE\playground-series-s4e6/*.ipynb
